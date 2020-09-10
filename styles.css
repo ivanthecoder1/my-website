@@ -11,6 +11,7 @@ body {
 
 .side-bar {
     margin: 10px;
+    
 }
 
 #home {
@@ -34,9 +35,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100vh;
-    padding: 10px;
+    max-width: 80vh;
+    padding: 8px;
     margin: 12px;
+    border-radius: 2%;
 }
 .main-box h1 {
     margin: 10px;
@@ -54,8 +56,8 @@ body {
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
     border: 2px, solid, red;
-    width: 35%;
-    height: 35%;
+    width: 36%;
+    height: 30%;
     order: 0;
     display: flex;
     margin: 10px;
@@ -69,14 +71,11 @@ body {
     flex-direction: column;
 }
 
-#logo {
-    display: flex;
-    flex-direction: row;
-    
-    align-items: center;
-    justify-content: space-evenly;
-    width: 35%;
-    height: 35%;
+
+
+#logo { 
+    width: 40%;
+    height: 40%;
 }
 
 /* skills section */
@@ -116,7 +115,8 @@ body {
 }
 
 .project1 img {
-    max-width: 100vh;
+    max-width: 80vh;
+    max-height: 80vh;
 }
 
 .project1 a {
@@ -141,8 +141,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100vh;
+    max-width: 85vh;
     padding: 25px;
+    border-radius: 2%;
     
 }
 
